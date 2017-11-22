@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\Extendos RTM.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\Extendos RTM.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\Extendos RTM.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\Fader Theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\Login Theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\PS3Lib.dll
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos_RTM.geoip.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos_RTM.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos_RTM.tool.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.pdb

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Net;
 
 
+
 namespace Extendos_RTM
 {
     public partial class tool : Form
@@ -15,13 +16,13 @@ namespace Extendos_RTM
             InitializeComponent();
         }
 
-     
+
 
         public static bool istmapi = true;
         private PS3API PS3 = new PS3API();
         private uint[] processIDs;
 
-       
+
         public uint processID { get; private set; }
 
         private void faderMinimalTheme1_Click(object sender, EventArgs e)
@@ -81,16 +82,13 @@ namespace Extendos_RTM
 
         private void logInLogButton1_Click(object sender, EventArgs e)
         {
-            webBrowser2.Visible = true;
-            webBrowser2.Navigate("https://geoiptool.com/en/?ip=");
-            SendKeys.Send(faderTextBox2.Text);
+           
 
         }
 
         private void faderButton4_Click(object sender, EventArgs e)
         {
-            string externalip = new WebClient().DownloadString("http://icanhazip.com");
-           label5.Text = (externalip);
+           
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -114,7 +112,53 @@ namespace Extendos_RTM
             string externalip = new WebClient().DownloadString("http://icanhazip.com");
             label5.Text = (externalip);
         }
+
+        private void logInLogButton2_Click(object sender, EventArgs e)
+        {
+            WebClient Name = new WebClient();
+            string IP = Name.DownloadString("https://webresolver.nl/api.php?key=1IY6H-FJF8Y-YD9FG-LWRPG&action=resolve&string=" + faderTextBox3.Text);
+            faderTextBox4.Text = IP;
+
+        }
+
+        private void logInLogButton3_Click(object sender, EventArgs e)
+        {
+            WebClient Name = new WebClient();
+            string IP = Name.DownloadString("https://webresolver.nl/api.php?key=1IY6H-FJF8Y-YD9FG-LWRPG&action=portscan&string=" + faderTextBox5.Text);
+            faderTextBox6.Text = IP;
+        }
+
+        private void logInLogButton4_Click(object sender, EventArgs e)
+        {
+            WebClient Name = new WebClient();
+            string IP = Name.DownloadString("https://webresolver.nl/api.php?key=1IY6H-FJF8Y-YD9FG-LWRPG&action=email2skype&string=" + faderTextBox7.Text);
+            faderTextBox8.Text = IP;
+        }
+
+        private void logInLogButton5_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void faderTextBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logInLogButton6_Click(object sender, EventArgs e)
+        {
+            WebClient Name = new WebClient();
+            string IP = Name.DownloadString("http://playstationresolver.com/API/auth.php?type=Resolve&psn=" + faderTextBox2.Text);
+            faderTextBox9.Text = IP;
+        
+
+        }
+
+        private void faderLabel15_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-    }
+}
 
 

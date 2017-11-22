@@ -61,19 +61,38 @@
             this.faderButton1 = new Fader_Theme.FaderButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.webBrowser2 = new System.Windows.Forms.WebBrowser();
-            this.faderGroupBox6 = new Fader_Theme.FaderGroupBox();
-            this.faderButton4 = new Fader_Theme.FaderButton();
-            this.faderGroupBox5 = new Fader_Theme.FaderGroupBox();
-            this.logInLogButton1 = new Login_Theme.LogInLogButton();
-            this.faderTextBox2 = new Fader_Theme.FaderTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.faderControlBox1 = new Fader_Theme.FaderControlBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.logInLogButton2 = new Login_Theme.LogInLogButton();
+            this.faderTextBox3 = new Fader_Theme.FaderTextBox();
+            this.faderTextBox4 = new Fader_Theme.FaderTextBox();
+            this.faderLabel8 = new Fader_Theme.FaderLabel();
+            this.faderGroupBox7 = new Fader_Theme.FaderGroupBox();
+            this.faderLabel9 = new Fader_Theme.FaderLabel();
+            this.faderGroupBox8 = new Fader_Theme.FaderGroupBox();
+            this.logInLogButton3 = new Login_Theme.LogInLogButton();
+            this.faderTextBox5 = new Fader_Theme.FaderTextBox();
+            this.faderTextBox6 = new Fader_Theme.FaderTextBox();
+            this.faderLabel10 = new Fader_Theme.FaderLabel();
+            this.faderLabel11 = new Fader_Theme.FaderLabel();
+            this.faderGroupBox9 = new Fader_Theme.FaderGroupBox();
+            this.faderLabel12 = new Fader_Theme.FaderLabel();
+            this.faderLabel13 = new Fader_Theme.FaderLabel();
+            this.faderTextBox7 = new Fader_Theme.FaderTextBox();
+            this.faderTextBox8 = new Fader_Theme.FaderTextBox();
+            this.logInLogButton4 = new Login_Theme.LogInLogButton();
+            this.logInLogButton1 = new Login_Theme.LogInLogButton();
+            this.logInLogButton5 = new Login_Theme.LogInLogButton();
+            this.logInLogButton6 = new Login_Theme.LogInLogButton();
+            this.faderGroupBox5 = new Fader_Theme.FaderGroupBox();
+            this.faderLabel14 = new Fader_Theme.FaderLabel();
+            this.faderLabel15 = new Fader_Theme.FaderLabel();
+            this.faderTextBox2 = new Fader_Theme.FaderTextBox();
+            this.faderTextBox9 = new Fader_Theme.FaderTextBox();
             this.faderMinimalTheme1.SuspendLayout();
             this.faderVerticalTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -84,8 +103,9 @@
             this.faderGroupBox3.SuspendLayout();
             this.faderGroupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.faderGroupBox6.SuspendLayout();
+            this.faderGroupBox7.SuspendLayout();
+            this.faderGroupBox8.SuspendLayout();
+            this.faderGroupBox9.SuspendLayout();
             this.faderGroupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -193,6 +213,7 @@
             // faderGroupBox2
             // 
             this.faderGroupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.faderGroupBox2.Controls.Add(this.logInLogButton5);
             this.faderGroupBox2.Controls.Add(this.faderLabel6);
             this.faderGroupBox2.Controls.Add(this.faderLabel5);
             this.faderGroupBox2.Controls.Add(this.faderLabel4);
@@ -202,7 +223,7 @@
             this.faderGroupBox2.Location = new System.Drawing.Point(587, 6);
             this.faderGroupBox2.Name = "faderGroupBox2";
             this.faderGroupBox2.ShowHeader = true;
-            this.faderGroupBox2.Size = new System.Drawing.Size(240, 160);
+            this.faderGroupBox2.Size = new System.Drawing.Size(255, 160);
             this.faderGroupBox2.TabIndex = 7;
             this.faderGroupBox2.Text = "System Information";
             // 
@@ -210,7 +231,7 @@
             // 
             this.faderLabel6.BackColor = System.Drawing.Color.Transparent;
             this.faderLabel6.Border = true;
-            this.faderLabel6.Location = new System.Drawing.Point(138, 112);
+            this.faderLabel6.Location = new System.Drawing.Point(90, 112);
             this.faderLabel6.Name = "faderLabel6";
             this.faderLabel6.Size = new System.Drawing.Size(99, 30);
             this.faderLabel6.TabIndex = 8;
@@ -220,7 +241,7 @@
             // 
             this.faderLabel5.BackColor = System.Drawing.Color.Transparent;
             this.faderLabel5.Border = true;
-            this.faderLabel5.Location = new System.Drawing.Point(138, 76);
+            this.faderLabel5.Location = new System.Drawing.Point(90, 76);
             this.faderLabel5.Name = "faderLabel5";
             this.faderLabel5.Size = new System.Drawing.Size(99, 30);
             this.faderLabel5.TabIndex = 8;
@@ -230,7 +251,7 @@
             // 
             this.faderLabel4.BackColor = System.Drawing.Color.Transparent;
             this.faderLabel4.Border = true;
-            this.faderLabel4.Location = new System.Drawing.Point(138, 40);
+            this.faderLabel4.Location = new System.Drawing.Point(90, 40);
             this.faderLabel4.Name = "faderLabel4";
             this.faderLabel4.Size = new System.Drawing.Size(99, 30);
             this.faderLabel4.TabIndex = 8;
@@ -269,7 +290,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Extendos_RTM.Properties.Resources.rmob_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(790, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(810, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(262, 212);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -332,6 +353,7 @@
             // faderGroupBox3
             // 
             this.faderGroupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.faderGroupBox3.Controls.Add(this.logInLogButton1);
             this.faderGroupBox3.Controls.Add(this.faderRadioButton3);
             this.faderGroupBox3.Controls.Add(this.faderRadioButton1);
             this.faderGroupBox3.Controls.Add(this.faderRadioButton2);
@@ -455,112 +477,25 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.tabPage2.Controls.Add(this.webBrowser1);
+            this.tabPage2.Controls.Add(this.faderGroupBox5);
+            this.tabPage2.Controls.Add(this.faderGroupBox9);
+            this.tabPage2.Controls.Add(this.faderGroupBox8);
+            this.tabPage2.Controls.Add(this.faderGroupBox7);
             this.tabPage2.Location = new System.Drawing.Point(104, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1048, 586);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Defiance";
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(3, 3);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.ScriptErrorsSuppressed = true;
-            this.webBrowser1.Size = new System.Drawing.Size(1042, 580);
-            this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("http://www.atomic-protocol.net", System.UriKind.Absolute);
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
+            this.tabPage2.Text = "Skype Resolver";
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.tabPage3.Controls.Add(this.webBrowser2);
-            this.tabPage3.Controls.Add(this.faderGroupBox6);
-            this.tabPage3.Controls.Add(this.faderGroupBox5);
             this.tabPage3.Location = new System.Drawing.Point(104, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1048, 586);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "GEO IP";
-            // 
-            // webBrowser2
-            // 
-            this.webBrowser2.Location = new System.Drawing.Point(363, 3);
-            this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser2.Name = "webBrowser2";
-            this.webBrowser2.ScriptErrorsSuppressed = true;
-            this.webBrowser2.Size = new System.Drawing.Size(682, 529);
-            this.webBrowser2.TabIndex = 2;
-            this.webBrowser2.Visible = false;
-            // 
-            // faderGroupBox6
-            // 
-            this.faderGroupBox6.BackColor = System.Drawing.Color.Transparent;
-            this.faderGroupBox6.Controls.Add(this.faderButton4);
-            this.faderGroupBox6.Location = new System.Drawing.Point(25, 115);
-            this.faderGroupBox6.Name = "faderGroupBox6";
-            this.faderGroupBox6.ShowHeader = true;
-            this.faderGroupBox6.Size = new System.Drawing.Size(320, 445);
-            this.faderGroupBox6.TabIndex = 1;
-            this.faderGroupBox6.Text = "Information";
-            // 
-            // faderButton4
-            // 
-            this.faderButton4.BackColor = System.Drawing.Color.Transparent;
-            this.faderButton4.Location = new System.Drawing.Point(47, 153);
-            this.faderButton4.Name = "faderButton4";
-            this.faderButton4.Size = new System.Drawing.Size(160, 35);
-            this.faderButton4.TabIndex = 0;
-            this.faderButton4.Text = "faderButton4";
-            this.faderButton4.Click += new System.EventHandler(this.faderButton4_Click);
-            // 
-            // faderGroupBox5
-            // 
-            this.faderGroupBox5.BackColor = System.Drawing.Color.Transparent;
-            this.faderGroupBox5.Controls.Add(this.logInLogButton1);
-            this.faderGroupBox5.Controls.Add(this.faderTextBox2);
-            this.faderGroupBox5.Location = new System.Drawing.Point(3, 3);
-            this.faderGroupBox5.Name = "faderGroupBox5";
-            this.faderGroupBox5.ShowHeader = true;
-            this.faderGroupBox5.Size = new System.Drawing.Size(357, 106);
-            this.faderGroupBox5.TabIndex = 0;
-            this.faderGroupBox5.Text = "Enter IP Below";
-            // 
-            // logInLogButton1
-            // 
-            this.logInLogButton1.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.logInLogButton1.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.logInLogButton1.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
-            this.logInLogButton1.BackColor = System.Drawing.Color.Transparent;
-            this.logInLogButton1.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.logInLogButton1.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
-            this.logInLogButton1.Location = new System.Drawing.Point(261, 37);
-            this.logInLogButton1.Name = "logInLogButton1";
-            this.logInLogButton1.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
-            this.logInLogButton1.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
-            this.logInLogButton1.Size = new System.Drawing.Size(50, 50);
-            this.logInLogButton1.TabIndex = 2;
-            this.logInLogButton1.Text = "logInLogButton1";
-            this.logInLogButton1.Click += new System.EventHandler(this.logInLogButton1_Click);
-            // 
-            // faderTextBox2
-            // 
-            this.faderTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.faderTextBox2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.faderTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
-            this.faderTextBox2.Location = new System.Drawing.Point(53, 48);
-            this.faderTextBox2.MaxLength = 32767;
-            this.faderTextBox2.MultiLine = false;
-            this.faderTextBox2.Name = "faderTextBox2";
-            this.faderTextBox2.ReadOnly = false;
-            this.faderTextBox2.Size = new System.Drawing.Size(200, 30);
-            this.faderTextBox2.TabIndex = 1;
-            this.faderTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.faderTextBox2.UseSystemPasswordChar = false;
             // 
             // label1
             // 
@@ -597,6 +532,372 @@
             this.timer2.Enabled = true;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // logInLogButton2
+            // 
+            this.logInLogButton2.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.logInLogButton2.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.logInLogButton2.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
+            this.logInLogButton2.BackColor = System.Drawing.Color.Transparent;
+            this.logInLogButton2.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.logInLogButton2.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
+            this.logInLogButton2.Location = new System.Drawing.Point(133, 194);
+            this.logInLogButton2.Name = "logInLogButton2";
+            this.logInLogButton2.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
+            this.logInLogButton2.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
+            this.logInLogButton2.Size = new System.Drawing.Size(50, 50);
+            this.logInLogButton2.TabIndex = 0;
+            this.logInLogButton2.Text = "logInLogButton2";
+            this.logInLogButton2.Click += new System.EventHandler(this.logInLogButton2_Click);
+            // 
+            // faderTextBox3
+            // 
+            this.faderTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox3.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox3.Location = new System.Drawing.Point(21, 73);
+            this.faderTextBox3.MaxLength = 32767;
+            this.faderTextBox3.MultiLine = false;
+            this.faderTextBox3.Name = "faderTextBox3";
+            this.faderTextBox3.ReadOnly = false;
+            this.faderTextBox3.Size = new System.Drawing.Size(274, 30);
+            this.faderTextBox3.TabIndex = 3;
+            this.faderTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox3.UseSystemPasswordChar = false;
+            // 
+            // faderTextBox4
+            // 
+            this.faderTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox4.Enabled = false;
+            this.faderTextBox4.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox4.Location = new System.Drawing.Point(21, 158);
+            this.faderTextBox4.MaxLength = 32767;
+            this.faderTextBox4.MultiLine = false;
+            this.faderTextBox4.Name = "faderTextBox4";
+            this.faderTextBox4.ReadOnly = true;
+            this.faderTextBox4.Size = new System.Drawing.Size(274, 30);
+            this.faderTextBox4.TabIndex = 4;
+            this.faderTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox4.UseSystemPasswordChar = false;
+            // 
+            // faderLabel8
+            // 
+            this.faderLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel8.Border = true;
+            this.faderLabel8.Location = new System.Drawing.Point(71, 37);
+            this.faderLabel8.Name = "faderLabel8";
+            this.faderLabel8.Size = new System.Drawing.Size(175, 30);
+            this.faderLabel8.TabIndex = 5;
+            this.faderLabel8.Text = "Enter Skype Name Here";
+            // 
+            // faderGroupBox7
+            // 
+            this.faderGroupBox7.BackColor = System.Drawing.Color.Transparent;
+            this.faderGroupBox7.Controls.Add(this.faderLabel9);
+            this.faderGroupBox7.Controls.Add(this.faderLabel8);
+            this.faderGroupBox7.Controls.Add(this.faderTextBox4);
+            this.faderGroupBox7.Controls.Add(this.faderTextBox3);
+            this.faderGroupBox7.Controls.Add(this.logInLogButton2);
+            this.faderGroupBox7.Location = new System.Drawing.Point(6, 6);
+            this.faderGroupBox7.Name = "faderGroupBox7";
+            this.faderGroupBox7.ShowHeader = true;
+            this.faderGroupBox7.Size = new System.Drawing.Size(318, 259);
+            this.faderGroupBox7.TabIndex = 6;
+            this.faderGroupBox7.Text = "Skype Resolver";
+            // 
+            // faderLabel9
+            // 
+            this.faderLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel9.Border = true;
+            this.faderLabel9.Location = new System.Drawing.Point(105, 122);
+            this.faderLabel9.Name = "faderLabel9";
+            this.faderLabel9.Size = new System.Drawing.Size(107, 30);
+            this.faderLabel9.TabIndex = 6;
+            this.faderLabel9.Text = "Results";
+            // 
+            // faderGroupBox8
+            // 
+            this.faderGroupBox8.BackColor = System.Drawing.Color.Transparent;
+            this.faderGroupBox8.Controls.Add(this.faderLabel11);
+            this.faderGroupBox8.Controls.Add(this.faderLabel10);
+            this.faderGroupBox8.Controls.Add(this.faderTextBox6);
+            this.faderGroupBox8.Controls.Add(this.faderTextBox5);
+            this.faderGroupBox8.Controls.Add(this.logInLogButton3);
+            this.faderGroupBox8.Location = new System.Drawing.Point(330, 6);
+            this.faderGroupBox8.Name = "faderGroupBox8";
+            this.faderGroupBox8.ShowHeader = true;
+            this.faderGroupBox8.Size = new System.Drawing.Size(273, 259);
+            this.faderGroupBox8.TabIndex = 7;
+            this.faderGroupBox8.Text = "IP Port Scan";
+            // 
+            // logInLogButton3
+            // 
+            this.logInLogButton3.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.logInLogButton3.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.logInLogButton3.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
+            this.logInLogButton3.BackColor = System.Drawing.Color.Transparent;
+            this.logInLogButton3.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.logInLogButton3.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
+            this.logInLogButton3.Location = new System.Drawing.Point(112, 194);
+            this.logInLogButton3.Name = "logInLogButton3";
+            this.logInLogButton3.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
+            this.logInLogButton3.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
+            this.logInLogButton3.Size = new System.Drawing.Size(50, 50);
+            this.logInLogButton3.TabIndex = 0;
+            this.logInLogButton3.Text = "logInLogButton3";
+            this.logInLogButton3.Click += new System.EventHandler(this.logInLogButton3_Click);
+            // 
+            // faderTextBox5
+            // 
+            this.faderTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox5.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox5.Location = new System.Drawing.Point(13, 73);
+            this.faderTextBox5.MaxLength = 32767;
+            this.faderTextBox5.MultiLine = false;
+            this.faderTextBox5.Name = "faderTextBox5";
+            this.faderTextBox5.ReadOnly = false;
+            this.faderTextBox5.Size = new System.Drawing.Size(248, 30);
+            this.faderTextBox5.TabIndex = 1;
+            this.faderTextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox5.UseSystemPasswordChar = false;
+            // 
+            // faderTextBox6
+            // 
+            this.faderTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox6.Enabled = false;
+            this.faderTextBox6.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox6.Location = new System.Drawing.Point(13, 158);
+            this.faderTextBox6.MaxLength = 32767;
+            this.faderTextBox6.MultiLine = false;
+            this.faderTextBox6.Name = "faderTextBox6";
+            this.faderTextBox6.ReadOnly = true;
+            this.faderTextBox6.Size = new System.Drawing.Size(248, 30);
+            this.faderTextBox6.TabIndex = 2;
+            this.faderTextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox6.UseSystemPasswordChar = false;
+            // 
+            // faderLabel10
+            // 
+            this.faderLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel10.Border = true;
+            this.faderLabel10.Location = new System.Drawing.Point(62, 37);
+            this.faderLabel10.Name = "faderLabel10";
+            this.faderLabel10.Size = new System.Drawing.Size(150, 30);
+            this.faderLabel10.TabIndex = 3;
+            this.faderLabel10.Text = "IP Address";
+            // 
+            // faderLabel11
+            // 
+            this.faderLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel11.Border = true;
+            this.faderLabel11.Location = new System.Drawing.Point(62, 122);
+            this.faderLabel11.Name = "faderLabel11";
+            this.faderLabel11.Size = new System.Drawing.Size(150, 30);
+            this.faderLabel11.TabIndex = 4;
+            this.faderLabel11.Text = "Port";
+            // 
+            // faderGroupBox9
+            // 
+            this.faderGroupBox9.BackColor = System.Drawing.Color.Transparent;
+            this.faderGroupBox9.Controls.Add(this.logInLogButton4);
+            this.faderGroupBox9.Controls.Add(this.faderTextBox8);
+            this.faderGroupBox9.Controls.Add(this.faderTextBox7);
+            this.faderGroupBox9.Controls.Add(this.faderLabel13);
+            this.faderGroupBox9.Controls.Add(this.faderLabel12);
+            this.faderGroupBox9.Location = new System.Drawing.Point(6, 271);
+            this.faderGroupBox9.Name = "faderGroupBox9";
+            this.faderGroupBox9.ShowHeader = true;
+            this.faderGroupBox9.Size = new System.Drawing.Size(318, 264);
+            this.faderGroupBox9.TabIndex = 8;
+            this.faderGroupBox9.Text = "Email To Skype";
+            // 
+            // faderLabel12
+            // 
+            this.faderLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel12.Border = true;
+            this.faderLabel12.Location = new System.Drawing.Point(80, 45);
+            this.faderLabel12.Name = "faderLabel12";
+            this.faderLabel12.Size = new System.Drawing.Size(150, 30);
+            this.faderLabel12.TabIndex = 0;
+            this.faderLabel12.Text = "Enter Email Address";
+            // 
+            // faderLabel13
+            // 
+            this.faderLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel13.Border = true;
+            this.faderLabel13.Location = new System.Drawing.Point(80, 130);
+            this.faderLabel13.Name = "faderLabel13";
+            this.faderLabel13.Size = new System.Drawing.Size(150, 30);
+            this.faderLabel13.TabIndex = 1;
+            this.faderLabel13.Text = "Skype Name";
+            // 
+            // faderTextBox7
+            // 
+            this.faderTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox7.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox7.Location = new System.Drawing.Point(21, 81);
+            this.faderTextBox7.MaxLength = 32767;
+            this.faderTextBox7.MultiLine = false;
+            this.faderTextBox7.Name = "faderTextBox7";
+            this.faderTextBox7.ReadOnly = false;
+            this.faderTextBox7.Size = new System.Drawing.Size(274, 30);
+            this.faderTextBox7.TabIndex = 2;
+            this.faderTextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox7.UseSystemPasswordChar = false;
+            this.faderTextBox7.Click += new System.EventHandler(this.faderTextBox7_Click);
+            // 
+            // faderTextBox8
+            // 
+            this.faderTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox8.Enabled = false;
+            this.faderTextBox8.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox8.Location = new System.Drawing.Point(21, 166);
+            this.faderTextBox8.MaxLength = 32767;
+            this.faderTextBox8.MultiLine = false;
+            this.faderTextBox8.Name = "faderTextBox8";
+            this.faderTextBox8.ReadOnly = false;
+            this.faderTextBox8.Size = new System.Drawing.Size(274, 30);
+            this.faderTextBox8.TabIndex = 3;
+            this.faderTextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox8.UseSystemPasswordChar = false;
+            // 
+            // logInLogButton4
+            // 
+            this.logInLogButton4.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.logInLogButton4.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.logInLogButton4.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
+            this.logInLogButton4.BackColor = System.Drawing.Color.Transparent;
+            this.logInLogButton4.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.logInLogButton4.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
+            this.logInLogButton4.Location = new System.Drawing.Point(133, 206);
+            this.logInLogButton4.Name = "logInLogButton4";
+            this.logInLogButton4.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
+            this.logInLogButton4.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
+            this.logInLogButton4.Size = new System.Drawing.Size(50, 50);
+            this.logInLogButton4.TabIndex = 4;
+            this.logInLogButton4.Text = "logInLogButton4";
+            this.logInLogButton4.Click += new System.EventHandler(this.logInLogButton4_Click);
+            // 
+            // logInLogButton1
+            // 
+            this.logInLogButton1.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.logInLogButton1.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.logInLogButton1.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
+            this.logInLogButton1.BackColor = System.Drawing.Color.Transparent;
+            this.logInLogButton1.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.logInLogButton1.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
+            this.logInLogButton1.Location = new System.Drawing.Point(183, 104);
+            this.logInLogButton1.Name = "logInLogButton1";
+            this.logInLogButton1.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
+            this.logInLogButton1.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
+            this.logInLogButton1.Size = new System.Drawing.Size(50, 50);
+            this.logInLogButton1.TabIndex = 12;
+            this.logInLogButton1.Text = "logInLogButton1";
+            // 
+            // logInLogButton5
+            // 
+            this.logInLogButton5.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.logInLogButton5.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.logInLogButton5.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
+            this.logInLogButton5.BackColor = System.Drawing.Color.Transparent;
+            this.logInLogButton5.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.logInLogButton5.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
+            this.logInLogButton5.Location = new System.Drawing.Point(195, 60);
+            this.logInLogButton5.Name = "logInLogButton5";
+            this.logInLogButton5.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
+            this.logInLogButton5.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
+            this.logInLogButton5.Size = new System.Drawing.Size(50, 50);
+            this.logInLogButton5.TabIndex = 9;
+            this.logInLogButton5.Text = "logInLogButton5";
+            // 
+            // logInLogButton6
+            // 
+            this.logInLogButton6.ArcColour = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.logInLogButton6.ArrowBorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.logInLogButton6.ArrowColour = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(233)))), ((int)(((byte)(234)))));
+            this.logInLogButton6.BackColor = System.Drawing.Color.Transparent;
+            this.logInLogButton6.BorderColour = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.logInLogButton6.HoverColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(169)))));
+            this.logInLogButton6.Location = new System.Drawing.Point(143, 202);
+            this.logInLogButton6.Name = "logInLogButton6";
+            this.logInLogButton6.NormalColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(199)))));
+            this.logInLogButton6.PressedColour = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(184)))));
+            this.logInLogButton6.Size = new System.Drawing.Size(50, 50);
+            this.logInLogButton6.TabIndex = 0;
+            this.logInLogButton6.Text = "logInLogButton6";
+            this.logInLogButton6.Click += new System.EventHandler(this.logInLogButton6_Click);
+            // 
+            // faderGroupBox5
+            // 
+            this.faderGroupBox5.BackColor = System.Drawing.Color.Transparent;
+            this.faderGroupBox5.Controls.Add(this.faderTextBox9);
+            this.faderGroupBox5.Controls.Add(this.faderTextBox2);
+            this.faderGroupBox5.Controls.Add(this.faderLabel15);
+            this.faderGroupBox5.Controls.Add(this.faderLabel14);
+            this.faderGroupBox5.Controls.Add(this.logInLogButton6);
+            this.faderGroupBox5.Location = new System.Drawing.Point(330, 271);
+            this.faderGroupBox5.Name = "faderGroupBox5";
+            this.faderGroupBox5.ShowHeader = true;
+            this.faderGroupBox5.Size = new System.Drawing.Size(332, 264);
+            this.faderGroupBox5.TabIndex = 9;
+            this.faderGroupBox5.Text = "PSN RESOLVER";
+            // 
+            // faderLabel14
+            // 
+            this.faderLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel14.Border = true;
+            this.faderLabel14.Location = new System.Drawing.Point(90, 45);
+            this.faderLabel14.Name = "faderLabel14";
+            this.faderLabel14.Size = new System.Drawing.Size(150, 30);
+            this.faderLabel14.TabIndex = 1;
+            this.faderLabel14.Text = "Enter GamerTag";
+            // 
+            // faderLabel15
+            // 
+            this.faderLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.faderLabel15.Border = true;
+            this.faderLabel15.Location = new System.Drawing.Point(90, 130);
+            this.faderLabel15.Name = "faderLabel15";
+            this.faderLabel15.Size = new System.Drawing.Size(150, 30);
+            this.faderLabel15.TabIndex = 2;
+            this.faderLabel15.Text = "IP Address";
+            this.faderLabel15.Click += new System.EventHandler(this.faderLabel15_Click);
+            // 
+            // faderTextBox2
+            // 
+            this.faderTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox2.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox2.Location = new System.Drawing.Point(25, 81);
+            this.faderTextBox2.MaxLength = 32767;
+            this.faderTextBox2.MultiLine = false;
+            this.faderTextBox2.Name = "faderTextBox2";
+            this.faderTextBox2.ReadOnly = false;
+            this.faderTextBox2.Size = new System.Drawing.Size(281, 30);
+            this.faderTextBox2.TabIndex = 3;
+            this.faderTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox2.UseSystemPasswordChar = false;
+            // 
+            // faderTextBox9
+            // 
+            this.faderTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox9.Enabled = false;
+            this.faderTextBox9.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.faderTextBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox9.Location = new System.Drawing.Point(25, 166);
+            this.faderTextBox9.MaxLength = 32767;
+            this.faderTextBox9.MultiLine = false;
+            this.faderTextBox9.Name = "faderTextBox9";
+            this.faderTextBox9.ReadOnly = false;
+            this.faderTextBox9.Size = new System.Drawing.Size(281, 30);
+            this.faderTextBox9.TabIndex = 4;
+            this.faderTextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.faderTextBox9.UseSystemPasswordChar = false;
+            // 
             // tool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -622,8 +923,9 @@
             this.faderGroupBox1.ResumeLayout(false);
             this.faderGroupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.faderGroupBox6.ResumeLayout(false);
+            this.faderGroupBox7.ResumeLayout(false);
+            this.faderGroupBox8.ResumeLayout(false);
+            this.faderGroupBox9.ResumeLayout(false);
             this.faderGroupBox5.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -661,20 +963,39 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private Fader_Theme.FaderTextBox faderTextBox1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.WebBrowser webBrowser2;
-        private Fader_Theme.FaderGroupBox faderGroupBox6;
-        private Fader_Theme.FaderGroupBox faderGroupBox5;
-        private Login_Theme.LogInLogButton logInLogButton1;
-        private Fader_Theme.FaderTextBox faderTextBox2;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Panel panel1;
-        private Fader_Theme.FaderButton faderButton4;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label5;
         private Fader_Theme.FaderLabel faderLabel7;
         private System.Windows.Forms.Timer timer2;
+        private Login_Theme.LogInLogButton logInLogButton2;
+        private Fader_Theme.FaderTextBox faderTextBox4;
+        private Fader_Theme.FaderTextBox faderTextBox3;
+        private Fader_Theme.FaderGroupBox faderGroupBox7;
+        private Fader_Theme.FaderLabel faderLabel9;
+        private Fader_Theme.FaderLabel faderLabel8;
+        private Fader_Theme.FaderGroupBox faderGroupBox8;
+        private Fader_Theme.FaderLabel faderLabel11;
+        private Fader_Theme.FaderLabel faderLabel10;
+        private Fader_Theme.FaderTextBox faderTextBox6;
+        private Fader_Theme.FaderTextBox faderTextBox5;
+        private Login_Theme.LogInLogButton logInLogButton3;
+        private Fader_Theme.FaderGroupBox faderGroupBox9;
+        private Login_Theme.LogInLogButton logInLogButton4;
+        private Fader_Theme.FaderTextBox faderTextBox8;
+        private Fader_Theme.FaderTextBox faderTextBox7;
+        private Fader_Theme.FaderLabel faderLabel13;
+        private Fader_Theme.FaderLabel faderLabel12;
+        private Login_Theme.LogInLogButton logInLogButton5;
+        private Login_Theme.LogInLogButton logInLogButton1;
+        private Login_Theme.LogInLogButton logInLogButton6;
+        private Fader_Theme.FaderGroupBox faderGroupBox5;
+        private Fader_Theme.FaderTextBox faderTextBox2;
+        private Fader_Theme.FaderLabel faderLabel15;
+        private Fader_Theme.FaderLabel faderLabel14;
+        private Fader_Theme.FaderTextBox faderTextBox9;
     }
 }

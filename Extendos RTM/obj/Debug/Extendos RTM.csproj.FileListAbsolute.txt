@@ -10,3 +10,5 @@ c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extend
 c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.csproj.GenerateResource.Cache
 c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.exe
 c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\obj\Debug\Extendos RTM.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\Extendos RTM\Extendos RTM\bin\Debug\theme.dll
